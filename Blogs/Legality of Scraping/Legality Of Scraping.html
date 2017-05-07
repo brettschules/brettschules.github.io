@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Brett Schules</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">
+                	<span class="glyphicon glyphicon-fire"></span>
+                	Brett Schules
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio (Coming Soon)</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Content -->
+    <div class="Blog">
+        <!-- Heading -->
+
+                <h1 class="page-header">Legality of Scraping
+                  <p>5-12-2017</p>
+                </h1>
+
+            <div class="text">
+              <img src="images/webscraping.jpg" style=" display: block; margin: 0 auto;" width="600px" height="200px">
+                  <p style="margin-top: 40px;">
+                    During my first week at Flatiron School, I was briefly introduced to the topic of web scraping using the
+                    Ruby Gem Nokogiri.  For those who do are not familiar with web scraping, it is extracting data from a
+                    website to use it however the end user wants to use that information. Eg: Real Estate Listings gathering,
+                    collecting financial data, collecting different prices for products...ect.
+	                   While I was playing around with this newly discovered feature and extracting data from websites, I had
+                     to ask myself what if I were to use this data for my future website?  It almost felt like it was stealing
+                     from someone else’s work to make it my own.  This is where the question I had came to be:  Is scraping Legal?  I decided to do a little more research on regarding the legality of web scraping.
+	                   It turns out that web scraping is a grey area that has being going back and forth in the courts over the
+                     years.
+                  </p>
+
+                <h3 style="display: inline;"><strong>eBay v. Bidder's Edge  </strong></h3>
+                <h5 style="display: inline-block;">100 F.Supp.2d 1058 (N.D. Cal. 2000)</h5>
+                  <img src="images/ebay.png" alt="eBay" title="eBay" width="150px", height="60px" style="margin-left: 50px;">
+                  <p>
+                    The first case challenging web scraping came to be in the year 2000 when eBay sued Bidder’s Edge for
+                    scraping data displaying their auction listings on their website.  Ebay used the <strong>Trespass to
+                      Chattels Doctrine</strong> arguing that Bidder’s Edge was ignoring repeated requests to stop using
+                      crawlers(bots used for automatically scraping the website.)  Ebay also argued that the use of crawlers
+                      by Bidder’s Edge was interfering with their servers.  Bidder’s Edge argued that their use of crawlers
+                      only generated a slight interference with Ebay’s servers(80,000–100,000 hits per day, representing only
+                      1 ½ percent of overall activities on Ebay’s website).  In the end it was ruled in favor of Ebay basically
+                      stating that even though the inference had a small impact on Ebay’s site, other scrapers could come along
+                      and negativity affect the site.  A <strong>preliminary injunction</strong> was issued as the result of the
+                      ruling.
+                  </p>
+
+
+                <h3 style="display: inline;"><strong>Intel Corp. v. Hamidi</strong></h3>
+                <h5 style="display: inline-block;">30 Cal. 4th 1342 (2003)</h5>
+                  <p>
+                    The Trespass to Chattels Doctrine ruling was only to be overturned a few years later in 2003 in the Intel
+                    Corp. v. Hamidi case.  It was ruled that Trespass to Chattels could not extend to the context of computers
+                    if no actual damage to personal property occurred.  For many years after this ruling, there were a few more
+                    cases taking legal action against scraping, however the courts would consistently shoot them down.
+                </p>
+
+                <h3 style="display: inline;"><strong>Facebook v. Power Ventures</strong></h3>
+                <h5 style="display: inline-block;"> 844 F. Supp. 2d 1025 (ND California 2012)</h5>
+                <img src="images/facebook-create.png" alt="Facebook" title="Facebook" width="150px", height="60px" style="margin-left: 50px;">
+                  <p>
+                    It wasn’t until 2009 when things start to take a turn in the other direction when Facebook sued Power
+                    Ventures for copyright infringement.  Facebook claimed that Power Ventures scraping their content was a
+                    violation of their Terms of Service specificity disallowing scraping data from their website.  It was
+                    ruled in Facebook’s favor since their Terms of Service did not allow for scraping.
+                  </p>
+
+                <h3 style="display: inline;"><strong>QVC Inc. v. Resultly LLC</strong></h3>
+                <h5 style="display: inline-block;"> No. 14-06714 (E.D. Pa 2014)</h5>
+                  <p>
+                    However, the tide would once again turn in the QVC Inc. v. Resultly case filed by QVC against Resultly
+                    in 2014.  QVC claimed that Resultly were aggressively using crawlers to scrap their site to the point
+                    where it would cause QVC’s servers to shut down causing millions in revenue.  In short, the court ruled
+                    that Resultly was not intentionally causing harm and QVC should do more to protect their site from crawlers.
+                  </p>
+
+                  <p>
+                    The legality of web scraping is still quite murky and it appears that legal action for scraping is quite
+                    rare to the point where your everyday common scraping use would ever be bought to court.  However, a
+                    scraper should take the following precautions to not only avoid any legal actions against them, but
+                    also out of courtesy for the website they are scraping from.
+                  </p>
+
+                  <ul>
+                    <li>The Content being scraped is not copyright protected</li>
+                    <li>The act of scraping does not burden the services of the site being scraped</li>
+                    <li>The scraper does not violate the Terms of Use of the site being scraped</li>
+                    <li>The scraper does not gather sensitive user information</li>
+                    <li>The scraped content adheres to fair use standards</li>
+                  </ul>
+
+          </div>
+        </div>
+      </div>
+        <!-- /.row -->
+
+
+        <!-- /.row -->
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+	<footer>
+
+        <div class="copyright">
+        	<div class="container">
+        		<p>Copyright &copy; Brett Schules 2017</p>
+        	</div>
+        </div>
+	</footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
